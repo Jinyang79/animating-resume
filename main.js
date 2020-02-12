@@ -1,86 +1,62 @@
-let resume = `# 蔡嘉琳
-137xxxxxxxx | caijialinxx@foxmail.com | 深圳
-Github: https://github.com/Caijialinxx
-Blog: https://caijialinxx.github.io
-前端开发
+let resume = `# 李金洋
+17371438861 | jinyang79@foxmail.com | 武汉
+Github: https://github.com/Jinyang79
+Blog: https://goldsheep.club
+20届本科 | 前端开发(实习)
 
 ## 专业技能
-- 掌握 HTML5 及 CSS3 ，熟悉传统布局、 Flex 布局、移动端适配等，有较好的审美及保证设计稿还原度。使用 Scss / Less 开发 CSS 
-- 掌握 JavaScript ，掌握原型、原型链、闭包、面向对象等。了解 ES6 部分新特性
-- 掌握 React 及其相关库的使用，理解生命周期、组件通信、异步更新、 Hooks 、虚拟 DOM 、 Diff 算法等
-- 使用 TypeScript 开发，理解接口、常用类型、可选链、空值合并运算符等
-- Vue 结合相关库的开发经验，掌握组件及组件间数据传递的使用、响应式原理、路由等
-- Git 的使用，代码仓库协同工作的能力、 npm 发布等经验
-- React Native 、小程序等移动端开发经验
-- 理解 MVC 、 MVVM 思想，了解 HTTP 基础
-- 使用 webpack 打包项目的经验，了解其资源管理的方法，如 css-loader 、 file-loader 等
-- 熟悉 jQuery 常用 API ，如 DOM 操作、特效、事件等。曾使用原生 JavaScript 封装简易版的 $.ajax()
+- 在项目中使用 HTML + CSS 进行页面布局，可以制作符合 W3C 标准规范的页面，能利用自己的开发经验独立建站。
+- 熟悉 HTML5 新特性，实现传统布局、 Flex 布局、rem 移动端适配，在项目中使用过 CSS 预处理器 Less 或者 Scss。
+- 掌握原生 JavaScript，理解原型继承、原型链、事件循环、闭包等，在项目中熟悉使用 jQuery 来简化原生 JS 操作实现项目。
+- 熟悉 ES6 基本语法、解构赋值、常用的数据结构、promise的含义和用法、async 函数、class 类以及模块化开发，在项目中熟练运用以及良好的编程风格。
+- 掌握前后台的数据交互，熟悉原生 ajax，在项目中使用 $ajax 和 axios 请求数据，并对请求数据进行处理，了解 RESTful 风格的API。
+- 在项目中熟练使用 vue 语法、生命周期钩子、以及常用 api，掌握组件及组件间数据传递的使用、响应式原理、路由等。
+- 拥有 vue 2.x 全家桶的项目开发经验，通过 vue-cli 快速搭建开发环境，使用 vue-router 实现路由懒加载，导航守卫，通过 vuex 进行全局状态管理，使用 devtools 工具进行调试，通过脚手架修改webpack的配置实现打包，并且按照官方代码风格开发。
+- 熟练使用脚手架或者 npm 安装开发依赖和插件，使用过 element-ui 、mint-ui、vant-ui 等组件库快速开发，了解一些 nuxt.js 实现服务器渲染，实现更好的 seo 优化和性能优化。
+- 熟练使用 git 工具（安装，使用，提交，版本回溯）npm 常用命令，遇到开发中坑会写 blog 中。
 
 ## 项目经验
-### CUI
-[Try it](https://caijialinxx.github.io/ui-demo/) | [View source](https://github.com/Caijialinxx/ui-demo)
-- 关键词：\`UI 组件库\`、\`React Hooks\`、\`TypeScript\`、\`npm\`、\`webpack\`、\`CircleCi\`
-- 描述：个人独立开发的 React UI 组件库，使用 React Hooks + TypeScript 开发，并已发布到 npm 中。由此掌握了 webpack 打包、 npm 发布流程、 CircleCi 自动化持续集成等。其中遇到的一个问题记录在了博客中——[从 npm 引入 React Hooks 轮子库报错 Minified React error#321 的解决方法](https://caijialinxx.github.io/2019/11/20/fix-react-error-321-by-webpack-externals/)。
+### 电商管理后台系统
+[效果预览](http://jinyang7.web3v.vip) | [查看源码](https://github.com/Jinyang79/vue-shop-cms)
+- 关键词：\`vue\`、\`vue-router\`、\`vue-cli\`、\`axios\`、\`element-ui\`、\`es6\`、\`echarts\`
+- 描述：该项目是基于 vue 和 element-ui，实现的PC后台管理系统，通过 vue-cli 快速搭建开发环境，vue-router实现路由导航守卫、懒加载，axios 请求数据，使用 es6 语法实现，包含登录、用户、权限、商品、订单管理、数据统计等业务功能。
 
-### 简历生成器
-[Try it](https://caijialinxx.github.io/animating-resume/) | [View source](https://github.com/Caijialinxx/animating-resume)
-- 关键词：\`JavaScript\`、\`Promise\`、\`变速\`、\`过渡动画\`、\`盒阴影\`
+### 仿卖座电影
+[效果预览](http://jinyang7.gitee.io/vue-m.maizuo/dist) | [查看源码](https://github.com/Jinyang79/vue-m.maizuo)
+- 关键词：\`vue\`、\`vuex\`、\`vue-router\`、\`vue-cli\`、\`axios\`、\`mint-ui\`、\`es6\`
+- 描述：该项目是基于 vue 全家桶和 mint-ui 实现的仿卖座电影移动端web项目，建议手机预览，采用 vuex 集中管理全局状态，模块化开发，通过 keep-alive 保留组件状态，避免重新渲染，重复请求数据，实现电影信息，详情页面，电影院，切换城市等业务功能。
+
+### 待办事项清单
+[效果预览](http://jinyang7.gitee.io/jquery-todolist) | [查看源码](https://github.com/Jinyang79/jquery-todolist)
+- 关键词：\`JavaScript\`、\`jQuery\`、\`localStorage\`、\`适配移动端\`
+- 描述：仿 todolist 待办事项清单，原项目是基于原生 JS 实现，该项目是通过 jQuery 实现，通过 localStorage 进行本地存储，实现事项提交，删除，更改状态，通过媒体查询实现适配移动端。
+
+### 简约音乐
+[效果预览](https://jinyang7.gitee.io/vue-music) | [查看源码](https://github.com/Jinyang79/vue-music)
+- 关键词：\`vue\`、\`axios\`、\`es6\`
+- 描述：该项目是使用 vue 开发的网页播放器，通过 axios 请求网易云音乐的 api 接口，实现歌曲搜索，播放时封面旋转动画，歌曲热评，mv播放功能。
+
+### 动画简历
+[效果预览](https://jinyang7.gitee.io/animating-resume) | [查看源码](https://github.com/Jinyang79/animating-resume)
+- 关键词：\`JavaScript\`、\`css3\`、\`es6\`、\`变速\`、\`过渡动画\`
 - 描述：该项目实现将一个 Markdown 简历转成可下载的 PDF 简历。使用原生 JS 开发， Promise 处理异步链式操作（各个步骤的跳转衔接），利用 CSS3 实现过渡、动画、阴影和弹性布局等。
 
-### 炫主页
-[Try it](https://caijialinxx.github.io/resume/) | [View source](https://github.com/Caijialinxx/resume)
-- 关键词：\`jQuery\`、\`CSS3 过渡动画\`、\`组件化思想\`、\`MVC 思想\`、\`媒体查询\`、\`Sticky\`
-- 描述：此项目是本人的一个信息介绍页，包含基础信息、技能、项目展示以及留言板功能。有大量精美的动画，例如滚动时的导航栏及模块的浮起、导航栏 hover 动画、响应式设计等。
-
-### 幻灯片放映室
-[Try it](https://caijialinxx.github.io/Slides/) | [View source](https://github.com/Caijialinxx/Slides)
-- 关键词：\`jQuery\`、\`Loop模式\`、\`缩略图模式\`、\`Rem\`、\`适配移动端\`、\`ES6\`
-- 描述：本项目展示了两种不同风格的轮播，功能有上一张、下一张、可点击的原点/缩略图导航、自动循环播放。使用了 Rem 单位，以及适配移动端。
-
-### 涂鸦板
-[Try it](https://caijialinxx.github.io/Canvas/) | [View source](https://github.com/Caijialinxx/Canvas)
-- 关键词：\`HTML5\`、\`Canvas\`、\`ES6\`、\`JavaScript\`
-- 描述：使用 HTML5 的 Canvas 元素及其相关 API ，实现支持多指同时画图（可选色/粗细）、橡皮擦、一键清空、保存至本地的功能。
-
-### 壹号聊天室
-[Try it](https://arcane-mountain-17783.herokuapp.com/) | [View source](https://github.com/Caijialinxx/IMsystem)
-- 关键词：\`Node.js\`、\`Socket.IO\`、\`Express\`
-- 描述：该项目后端使用 Node.js 实现一个在线聊天室，有登录、添加好友、单聊/群聊、发送消息（文本/表情/文件）等功能。使用 Express 实现路由功能，由个人独立开发，已部署到 Heroku 上。
-
-## 工作经历
-### 深圳芥菜种科技有限公司
-2019/2 - 2019/5
-- 职位：前端开发
-- 主要技术：\`React\`、\`React Router\`、\`Mobx\`
-- 工作内容：开发智能英语学习平台。负责中后台 1.1 版本的所有更新和优化；To C 系统中负责 UI 组件的开发供前端调用，以及数学学习模块的更新维护。
-
-### 北京宸铭影视文化传媒有限公司
-2018/10 - 2018/12
-- 职位：前端开发（自接外包）
-- 主要技术：\`Vue\`、\`Vue Router\`、\`Vuex\`
-- 工作内容：开发单页面 PC 端中后台运营管理系统。主要重难点有组件的使用和切换、多个组件实例之间共享的状态的管理（Vuex）。 UI 组件自造轮子或使用 Element 。
-
-### 天津乐童年科技发展有限公司
-2017/9 - 2017/11
-- 职位：前端开发（实习）
-- 主要技术：\`jQuery\`、\`CSS3\`、\`响应式设计\`
-- 工作内容：配合公司需要，开发公司的官方网站。
+### 个人博客
+[效果预览](https://goldsheep.club) | [查看源码](https://github.com/Jinyang79/Jinyang79.github.io)
+- 关键词：\`hexo\`、\`icarus\`、\`blog\`
+- 描述：该项目是本人的技术博客，通过 hexo 框架和 Icarus 主题搭建，对学习的技术进行总结，把开发过程中遇到的坑或盲点进行记录，记录学习日记。
 
 ## 教育经历
-### 广东第二师范学院
-2014/9 - 2018/6
-- 专业学历：计算机科学与技术 大学本科
-- GPA：3.4 / 4.0
-- 荣誉：校二、三奖学金、优秀学生（2014-2015、2016-2017共两学年）、优秀学生干部（2014-2015、2016-2017共两学年）
-- 相关课程：网络应用开发（PHP）、数据结构与算法、数据库系统原理、计算机网络等
+### 武昌理工学院
+2016/9 - 2020/6
+- 专业 学历：软件工程 本科
 `
 
 let code_ready = `/*
- * 嗨，我是蔡嘉琳。
+ * 嗨，我是李金洋。
  * 我想用代码给你展示一下我的个人简历～
- * 灵感来自：http://strml.net
- * 
- * 那么，我要开始啦...
+ * 如果嫌速度慢，可以点击页面右上角的按钮加速
+ * 好啦，不说废话了，我要开始啦...
  */
 
 /* 添加一个过渡，使变化看起来更柔和 */
@@ -236,7 +212,7 @@ let code_photo = `
  * 好啦，我的头像出来啦~
  * 期待这张面孔出现在您的面试中
  * 
- *   —— 蔡嘉琳 2019/01 *^_^*
+ *   —— 李金洋 2020/01 *^_^*
  */
 `
 
@@ -279,11 +255,11 @@ $('#speed_btn').click(() => {
   }
 })
 
-function writeCode(code, origin) {
+function writeCode (code, origin) {
   let n = 1
   return new Promise(resolve => {
     codeInputTimeoutID = setTimeout(write, duration)
-    function write() {
+    function write () {
       code_body.innerHTML = Prism.highlight(origin + code.substr(0, n), Prism.languages.css, 'css');
       code_style.innerHTML = origin + code.substr(0, n)
       code_body.scrollTop = code_body.scrollHeight
@@ -298,7 +274,7 @@ function writeCode(code, origin) {
     }
   })
 }
-function writeResume() {
+function writeResume () {
   let n = 1
   return new Promise(resolve => {
     resumeInputTimeoutID = setTimeout(write, duration)
@@ -317,7 +293,7 @@ function writeResume() {
   })
 }
 
-function createResume() {
+function createResume () {
   return new Promise(resolve => {
     $('#paper').addClass('breathe')
     $('#code_body').removeClass('breathe')
@@ -330,7 +306,7 @@ function createResume() {
     }, 1000)
   })
 }
-function adjustResume() {
+function adjustResume () {
   return new Promise((resolve, reject) => {
     $('#code_body').addClass('breathe')
     $('#paper').removeClass('breathe')
@@ -347,10 +323,10 @@ function adjustResume() {
     })
   })
 }
-function structureResume() {
+function structureResume () {
   $('#paper')[0].innerHTML = marked(resume)
   $('#paper').prepend('<div id="information"></div>', '<div id="skills"></div>', '<div id="works"></div>', '<div id="jobs"></div>', '<div id="education"></div>')
-  
+
   // 「基本信息」
   $('#information').append($('h1'), $('p').first())
 
@@ -381,7 +357,7 @@ function structureResume() {
   // 「小程序」
   // $('a[href="./images/qrcode.png"]').addClass('qrcode-trigger').append($('img.qrcode'))
 }
-function addAndAdjustAvatar() {
+function addAndAdjustAvatar () {
   return new Promise(resolve => {
     $('#information').append($('img.avatar'))
     writeCode(code_photo, code_ready + code_marked + code_beautify_resume).then(() => {
@@ -392,13 +368,13 @@ function addAndAdjustAvatar() {
     })
   })
 }
-function showDownloadButton() {
+function showDownloadButton () {
   $('#options').css({ 'width': '23%' })
   $('a.downloadResume').addClass('show')
   $('#options').append($('a.downloadResume'))
 }
 
-function skipResumeInput() {
+function skipResumeInput () {
   return new Promise(resolve => {
     setTimeout(() => {
       window.clearTimeout(resumeInputTimeoutID)
@@ -409,7 +385,7 @@ function skipResumeInput() {
     }, 0)
   })
 }
-function skipAll() {
+function skipAll () {
   return new Promise(resolve => {
     setTimeout(() => {
       window.clearTimeout(codeInputTimeoutID)
@@ -418,7 +394,7 @@ function skipAll() {
     }, 0)
   })
 }
-function showFinalResult() {
+function showFinalResult () {
   $('#paper').addClass('breathe')
   $('#code_body').removeClass('breathe')
   $('#information').append($('img.avatar'))
