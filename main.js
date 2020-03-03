@@ -38,7 +38,7 @@ Blog: https://goldsheep.club
 
 ### 动画简历
 [效果预览](https://jinyang7.gitee.io/animating-resume) | [查看源码](https://github.com/Jinyang79/animating-resume)
-- 关键词：\`JavaScript\`、\`css3\`、\`es6\`、\`变速\`、\`过渡动画\`
+- 关键词：\`JavaScript\`、\`css3\`、\`es6\`、\`过渡动画\`
 - 描述：该项目实现将一个 Markdown 简历转成可下载的 PDF 简历。使用原生 JS 开发， Promise 处理异步链式操作（各个步骤的跳转衔接），利用 CSS3 实现过渡、动画、阴影和弹性布局等。
 
 ### 个人博客
