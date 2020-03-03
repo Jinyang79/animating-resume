@@ -17,7 +17,7 @@ Blog: https://goldsheep.club
 
 ## 项目经验
 ### 电商管理后台系统
-[效果预览](http://jinyang7.web3v.vip) | [查看源码](https://github.com/Jinyang79/vue-shop-cms)
+[效果预览](http://jinyang7.gitee.io/vue-shop-cms/dist) | [查看源码](https://github.com/Jinyang79/vue-shop-cms)
 - 关键词：\`vue\`、\`vue-router\`、\`vue-cli\`、\`axios\`、\`element-ui\`、\`es6\`、\`echarts\`
 - 描述：该项目是基于 vue 和 element-ui，实现的PC后台管理系统，通过 vue-cli 快速搭建开发环境，vue-router实现路由导航守卫、懒加载，axios 请求数据，使用 es6 语法实现，包含登录、用户、权限、商品、订单管理、数据统计等业务功能。
 
